@@ -1,24 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import styledComponents from "styled-components";
+import GlobalStyle from "./styles/GlobalStyle";
+import Header from "./components/Header"
+import TaskList from "./components/TaskList";
+import Input from "./components/Input"
+import { Provider } from "react-redux";
+import { store } from "./redux";
+
+const Container = styledComponents.div`
+  margin: 100px auto;
+  width:45vw;
+`
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Provider store={store}> 
+      <GlobalStyle/>
+      <Container>
+        <Header />
+        <TaskList />
+        <Input />
+      </Container>
+      </Provider>
+    </>
   );
 }
 
