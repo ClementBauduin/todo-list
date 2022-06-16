@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/ClementBauduin.github.io/static/js/main.8a174592.js",
-    "index.html": "/ClementBauduin.github.io/index.html",
-    "main.8a174592.js.map": "/ClementBauduin.github.io/static/js/main.8a174592.js.map"
+    "main.js": "/ClementBauduin.github.io/todo-list/static/js/main.29bcdf99.js",
+    "index.html": "/ClementBauduin.github.io/todo-list/index.html",
+    "main.29bcdf99.js.map": "/ClementBauduin.github.io/todo-list/static/js/main.29bcdf99.js.map"
   },
   "entrypoints": [
-    "static/js/main.8a174592.js"
+    "static/js/main.29bcdf99.js"
   ]
 }
