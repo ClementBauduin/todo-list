@@ -2,7 +2,7 @@
   "name": "todos-list",
   "version": "0.1.0",
   "private": true,
-  "homepage" : "https://github.com/ClementBauduin.github.io/todo-list",
+  "homepage" : "https://clementbauduin.github.io/todo-list",
   "dependencies": {
     "@reduxjs/toolkit": "^1.8.2",
     "@testing-library/jest-dom": "^5.16.4",
